@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html ng-app="myContactApp" >
+
+<head>
+<title>Contacts and Groups Management (Angular JS)</title>
+<style>
+</style>
+
+<!-- JQUERY -->
+<script src="lib-js/jquery-2.2.3.js"></script>
+
+<!-- bootstrap JS v3.3.6 -->
+<script src="lib-js/bootstrap.js"></script>
+
+<!-- bootstrap CSS v3.3.6 > -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+<!-- angular lib -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-mocks.js"></script>
+
+<!-- angular extension lib -->
+<script src="lib-js/angular-ui-router.js"></script>
+
+<!-- app  -->
+<link rel="stylesheet" type="text/css" href="app.css">
+<script src="app.js"></script>
+</head>
+
+<body>
+  <h2 class="text-center" ng-controller="myCtrl as ctrl">{{ctrl.msg}}</h2>
+</body>
+
+</html>
